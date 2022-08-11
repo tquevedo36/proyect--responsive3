@@ -4,6 +4,11 @@ body {
     font-family: 'Fjalla One', sans-serif;
 }
 
+body {
+    background-image :url('../img/57-576139_grunge-black-background-background-gru-grunge-black-grunge.jpg')
+
+}
+
 
 
 ul {
@@ -89,7 +94,7 @@ main {
     text-align: center;
 }
 
-.contenedor {
+/*.contenedor {
  
   text-align: center; 
   background-color: rgb(0, 0, 0);
@@ -100,13 +105,13 @@ main {
     border: 1px solid rgb(7, 7, 7);
    
     
-}
+} */
 
 
 
 
 
-.caja1Mera {
+/*.caja1Mera {
     border: 2px rgb(0, 0, 0) solid;
     width: 475px;
     height: 200px;
@@ -120,11 +125,11 @@ main {
     
    
     
-}
+} */
 
 
 
-.caja1 {
+/*.caja1 {
     background-color: rgb(0, 0, 0);
     color: rgb(247, 247, 247);
     border: 2px solid rgb(247, 238, 238);
@@ -133,11 +138,11 @@ main {
     text-align: center;
  
     
-}
+}*/
 
 
 
-header {
+ /*header {
     grid-area: header;
 }
 
@@ -174,6 +179,7 @@ body {
     gap: 40px;
 }
 
+*/
 
 
 
@@ -187,16 +193,13 @@ body {
     }
 }
 
-h2 {
+footer {
     animation-name: texto;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-}
+} 
 
-body {
-    background-image: url('../img/57-576139_grunge-black-background-background-gru-grunge-black-grunge.jpg');
- 
-}
+
 
 
 /*@media  (max-width: 320px)  {

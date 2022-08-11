@@ -3,7 +3,10 @@ body {
     font-family: 'Fjalla One', sans-serif;
 }
 
+body {
+    background-image :url('../img/57-576139_grunge-black-background-background-gru-grunge-black-grunge.jpg')
 
+}
 
 ul {
     list-style: none;
@@ -24,9 +27,7 @@ li {
 
 
 
-body {
-    background-image: url('../img/57-576139_grunge-black-background-background-gru-grunge-black-grunge.jpg');
-}
+
 
 h1 {
     color: rgb(236, 236, 236);
@@ -100,7 +101,11 @@ ol {
 }
 
 
-
+footer {
+    animation-name: texto;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+} 
 
      
     
@@ -108,216 +113,5 @@ ol {
 
 
 
-
-
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: main;
-}
-
-h2 {
-    grid-area: h2;
-}
-
-p {
-    grid-area: p;
-}
-
-nav {
-    grid-area: nav;
-}
-
-.ifraMe1 {
-    grid-area: if1;
-}
-
-.ifraMe2 {
-    grid-area: if2;
-}
-
-.ifraMe3 {
-    grid-area: if3;
-}
-
-.li1Uno {
-    grid-area:  li1;
-}
-
-.li2Dos {
-    grid-area: li2;
-}
-
-.li3Tres {
-    grid-area: li3;
-}
-
-
-
-footer {
-    grid-area: footer;
-}
-
-.ol1Uno {
-    grid-area: ol;
-}
-
-
-
-@media (min-width:320px) {
-    .gridPadre {
-      /*  display: grid;
-        grid-template-areas: 
-        "header"
-        "nav"
-         "main"
-         "h2"
-         "ol"
-        "li1"
-        "p"
-        "if1"
-        "li2"
-        "p"
-        "if2"
-        "li3"
-        "p"
-        "if3"
-        "footer"
-        ; */
-        gap: 40px;
-    }
-
-}
-
-
-@media (min-width:480px) {
-    .gridPadre {
-      /*  display: grid;
-        grid-template-areas: 
-        "header header"
-        "main main"
-        "nav nav"
-         "h2 h2"
-         "ol ol"
-        "li1 li1"
-        "p p"
-        "if1 if1"
-        "li2 li2"
-        "p p"
-        "if2 if2"
-        "li3"
-        "p p"
-        "if3 if3"
-        "footer footer"
-        
-        ; */
-        gap: 40px;
-    }
-
-}
-
-
-
-
-@media (min-width:600px) {
-    .gridPadre {
-     /*   display: grid;
-        grid-template-areas: 
-        "header header"
-        "main main"
-        "nav nav"
-         "h2 h2"
-         "ol ol"
-        "li1 li1"
-        "p p"
-        "if1 if1"
-        "li2 li2"
-        "p p"
-        "if2 if2"
-        "li3"
-        "p p"
-        "if3 if3"
-        "footer footer"
-    
-        ; */
-        gap: 40px;
-    }
-
-}
-
-@media (min-width:768px) {
-    .gridPadre {
-      /*  display: grid;
-        grid-template-areas: 
-        "header header"
-        "main main"
-        "nav nav"
-         "h2 h2"
-         "ol ol"
-        "li1 li1"
-        "p p"
-        "if1 if1"
-        "li2 li2"
-        "p p"
-        "if2 if2"
-        "li3"
-        "p p"
-        "if3 if3"
-        "footer footer"
-        ; */
-        gap: 40px;
-    } 
-
-}
-
-@media (min-width:1024px) {
-    .gridPadre {
-     /*   display: grid;
-        grid-template-areas: 
-        "header header header"
-        "main main nav"
-        "h2 h2 nav"
-         "ol ol ol"
-        "li1 li1 li1"
-        "p p p"
-        "if1 if1 if1"
-        "li2 li2 li2"
-        "p p p"
-        "if2 if2 if2"
-        "li3 l3 li3"
-        "p p p"
-        "if3 if3 if3"
-        "footer footer footer"
-        
-        ; */
-        gap: 40px;
-    }
-
-}
-
-@media (min-width:1200px) {
-    .gridPadre {
-       /* display: grid;
-        grid-template-areas: 
-        "header header header header"
-        "main main main nav"
-        "h2 h2 h2 nav "
-        "li1 li1 li1 li1"
-        "p p p p"
-        "if1 if1 if1 if1"
-        "li2 li2 li2 li2"
-        "p p p p"
-        "if2 if2 if2 if2"
-        "li3 li3 li3 li3"
-        "p p p p"
-        "if3 if3 if3 if3"
-        "footer footer footer footer"
-        ; */
-        gap: 40px;
-    }
-
-}
 
 

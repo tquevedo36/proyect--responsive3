@@ -25,11 +25,10 @@ li {
 
 
 
-/*body {
+body {
     background-image :url('../img/57-576139_grunge-black-background-background-gru-grunge-black-grunge.jpg')
-
-}
-*/
+    
+} 
 
 
 
@@ -90,47 +89,7 @@ main {
 
 
 
-.contenedor {
- 
-  text-align: center; 
-  background-color: rgb(0, 0, 0);
-    padding: 3px;
-    border: black solid;
-    width: 600px;
-    height: 300px;
-    border: 1px solid rgb(255, 249, 249);
-   
-}
 
-
-
-.caja2Da {
-    border: 2px rgb(0, 0, 0) solid;
-    width: 475px;
-    height: 200px;
-   
-    background-image: url('../img/tlou\ menu.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat ;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around ;
-   
-     
-    
-    
-}
-
-.caja2 {
-    background-color: rgb(0, 0, 0);
-    color: rgb(247, 247, 247);
-    border: 2px solid rgb(247, 238, 238);
-    height: 15%;
-    width: 25%;
-    text-align: center;
-  
-    
-}
 
 .img2Dos {
     width: 300px;
@@ -141,157 +100,6 @@ section {
 }
 
 
-
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: main;
-}
-
-h2 {
-    grid-area: h2;
-}
-
-p {
-    grid-area: p;
-}
-
-nav {
-    grid-area: nav;
-}
-
-div {
-    grid-area: div;
-}
-
-img {
-    grid-area: img;
-}
-
-
-footer {
-    grid-area: footer;
-}
-section {
-    grid-area: section;
-}
-
-.img2Dos {
-    grid-area: img2;
-}
-
-
-@media (min-width:320px) {
-    .gridPadre {
-       /* display: grid;
-        grid-template-areas: 
-        "header header"
-        "main main"
-        "nav nav"
-        "h2 h2"
-        "section section"
-        "img2 img2"
-        "p p"
-        "footer footer"
-        ; */
-        gap: 100px;
-    }
-
-}
-
-
-@media (min-width:480px) {
-    .gridPadre {
-       /* display: grid;
-        grid-template-areas: 
-        "header header"
-        "main main"
-        "nav nav"
-        "h2 h2"
-        "section section"
-        "img2 img2"
-        "p p"
-        "footer footer"
-        ; */
-        gap: 100px;
-    }
-
-}
-
-
-
-
-@media (min-width:600px) {
-    .gridPadre {
-      /*  display: grid;
-        grid-template-areas: 
-        "header header"
-        "main main"
-        "nav nav"
-        "h2 h2"
-        "section section"
-        "img2 img2"
-        "p p"
-        "footer footer"
-        ; */
-        gap: 100px;
-    }
-
-}
-
-@media (min-width:768px) {
-    .gridPadre {
-       /* display: grid;
-        grid-template-areas: 
-        "header header"
-        "main main"
-        "nav nav"
-        "h2 h2"
-        "section section"
-        "img2 img2"
-        "p p"
-        "footer footer"
-        ; */
-        gap: 100px;
-    }
-
-}
-
-@media (min-width:1024px) {
-    .gridPadre {
-       /* display: grid;
-        grid-template-areas: 
-        "header header header"
-        "main main nav"
-        "h2 h2 nav"
-        "section section img2"
-        "section section img2"
-        "p p p"
-        "footer footer footer"
-        ; */
-        gap: 100px;
-    }
-
-}
-
-@media (min-width:1200px) {
-    .gridPadre {
-       /* display: grid;
-        grid-template-areas: 
-        "header header header header"
-       "nav nav nav nav"
-        "main main main main"
-        "h2 h2 h2 h2"
-        "section section section img2"
-        "p p p p"
-        "footer footer footer footer"
-        ; */
-        gap: 100px;
-    }
-
-}
 
 
 
@@ -308,8 +116,7 @@ footer {
     animation-name: texto;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-}
-
+} 
 
 
 
