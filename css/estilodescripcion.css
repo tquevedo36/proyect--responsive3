@@ -32,8 +32,10 @@ body {
 
 
 
+
 h1 {
     color: rgb(236, 236, 236);
+    
 }
 
 
@@ -93,6 +95,10 @@ main {
 
 .img2Dos {
     width: 300px;
+}
+
+.img3tres {
+    width: 320px;
 }
 
 section {
