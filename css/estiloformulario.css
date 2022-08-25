@@ -49,7 +49,7 @@ a {
 
 
 .cajaFormulario{
-    width: 20%;
+   
     border: 2px white;
 }
 .primeraSeccion {
@@ -89,22 +89,43 @@ main {
 
 
 .cajaFormulario {
-    background-color: rgb(78, 78, 78);
-    width: 300px;
+    
+    width: 320px;
     border: 2px rgb(255, 255, 255) solid;
-margin-right: 500px;
-left: 50%;
+
+
 }
 
-
-
-
-footer {
-    animation-name: texto;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-} 
-
-
-
+  
+  
+  label {
+    display: inline-block;
+    
+    text-align: center;
+  }
+  
+  legend {
+    text-align: center;
+  }
+  input,
+  textarea {
+   
+    font: 1em sans-serif;
+    width: 250px;
+    border: 3px solid rgb(78, 78, 78);
+  }
+  
+ .inPut {
+    font: 1em sans-serif;
+    width: 250px;
+   margin-left: 33px;
+ }
+  
+  
+ 
+  
+.parrafoDeFormulario {
+    font-size: 30px;
+}
+ 
 
