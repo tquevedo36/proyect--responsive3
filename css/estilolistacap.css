@@ -20,7 +20,7 @@ li {
     text-align: center;
     font-weight: bold;
     font-size: 25px;  
-    background: radial-gradient(#0e0d0d9a,black , rgb(46, 43, 43) , rgb(65, 62, 62) );
+    background: radial-gradient(#968d8b,rgb(65, 60, 60) , rgb(10, 10, 10) , #000000);
   
     
 }
